@@ -1,0 +1,15 @@
+PODS:
+  - SnapKit (0.21.1)
+  - UMengSocialCOM (5.2.1)
+
+DEPENDENCIES:
+  - SnapKit
+  - UMengSocialCOM (~> 5.2.1)
+
+SPEC CHECKSUMS:
+  SnapKit: bbad04cb016c7cead63965f16b00c09318d271ee
+  UMengSocialCOM: 074c135ce349aa4c8848d3fb8458757bcb6ffb67
+
+PODFILE CHECKSUM: c87032c0f8c8c8045e7b8ba96e267ec015aeb0c5
+
+COCOAPODS: 1.1.0.beta.1

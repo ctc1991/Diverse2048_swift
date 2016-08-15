@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		020E04EE848B3FDDCE1EA91AECCB0C12 /* View+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2696B707924363BAFDAC0594DBF916D1 /* View+SnapKit.swift */; };
+		0CC919651DBD41C3B1756BFF51B25C5D /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2EBD3607F08026943865E10CC62715 /* Constraint.swift */; };
+		0D71D74B791F30847507F75F7AFA0BE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		1072DE7A6FD67E66B5929E682ED484B3 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059A27326EDE8AC5E291E3E7E3508CC6 /* ConstraintDescription.swift */; };
+		47C7E3D35B82F5008303D31DD1A42FB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		49C24FD6288B253F93ED3DF14F758BD3 /* ViewController+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356B335572C86B8309AEF627011E4CF5 /* ViewController+SnapKit.swift */; };
+		4DC6E8E0089E4E8416D6334C7A59D504 /* Pods-Diverse2048_swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1EF741DF9ACD4B8A9EE3F4F9337665 /* Pods-Diverse2048_swift-dummy.m */; };
+		57B27138531143D0DF39061D87438A39 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CCC5E52C1A43BD573C4EED50B5D174 /* ConstraintRelation.swift */; };
+		59DCD958DA30DC459DE5697F0B1DEB18 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B535FAD9B60E035716B7837AD7BC04 /* Debugging.swift */; };
+		59F9E8B42561CEF3D67C4697967DD2C4 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60480700142CC747BD0717ACF5CC5A81 /* ConstraintItem.swift */; };
+		874114917A8565BB487D1EB97003C8AC /* SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF34719545B6917AADB470E3176A785 /* SnapKit.swift */; };
+		A0B72F5057C5AA5BD2291A48751701FC /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82960A0A7535F9CFF02753A9E3F21F8D /* SnapKit-dummy.m */; };
+		AE855E404FC2128A3D727D440C13A5EC /* Pods-Diverse2048_swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6326752FD999B6E966F8F2B2ED9CF34 /* Pods-Diverse2048_swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4B456074C6C768539AB99ED036CBD8B /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F0B33CA0C3799CD461BE59237C6B15 /* ConstraintAttributes.swift */; };
+		BD159E48E9D7F5A797347A7D9DA2EE31 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C3D82F56B60CD924E17057F9E8D9D0 /* LayoutConstraint.swift */; };
+		BDE83BED933C1273CA064F858C5A721F /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65503AD282179D6F1B01F6366B37C62D /* EdgeInsets.swift */; };
+		CA2FD1112C02F3B598177EB4B97B097A /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8984B2751C1F4344F85115B75C779AA /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9B809FF190AF6B189E3320FBF8013EC /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF57A4569F554AD8233CE77D6C66E69D /* ConstraintMaker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		732EFF97C83EF9721E98D0835955092D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92E1AE143121B3EF64703BEE478A2AAB;
+			remoteInfo = SnapKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04E0E992F5A6AEB443D75A8B762B9DC1 /* UMSocialSinaSSOHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialSinaSSOHandler.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/UMSocialSinaSSOHandler.h; sourceTree = "<group>"; };
+		059A27326EDE8AC5E291E3E7E3508CC6 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
+		09DAD2447E2FE73F359E32E4C2DAE843 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		1AF493BA8E968777C9EFA4A9AB804F66 /* Pods-Diverse2048_swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Diverse2048_swift.debug.xcconfig"; sourceTree = "<group>"; };
+		1AFED4225BF8E4C0BB3B4A82A7484122 /* LWApiMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LWApiMessage.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/LWApiMessage.h; sourceTree = "<group>"; };
+		1F8CF56080279DD8FA4D3DC70F26A997 /* UMSocialInstagramHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialInstagramHandler.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Instagram/UMSocialInstagramHandler.h; sourceTree = "<group>"; };
+		2696B707924363BAFDAC0594DBF916D1 /* View+SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "View+SnapKit.swift"; path = "Source/View+SnapKit.swift"; sourceTree = "<group>"; };
+		26DD86C0F6CF4B36545E7BE975B5C4D8 /* UMSocialSDKResourcesNew.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = UMSocialSDKResourcesNew.bundle; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/UMSocialSDKResourcesNew.bundle; sourceTree = "<group>"; };
+		2E6833FB5E86B0FC92CBD7CCCE564006 /* UMSocialQQHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialQQHandler.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/UMSocialQQHandler.h; sourceTree = "<group>"; };
+		31C3D82F56B60CD924E17057F9E8D9D0 /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		329FA80CB567514B13059305875B378D /* UMSocialTwitterHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialTwitterHandler.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Twitter/UMSocialTwitterHandler.h; sourceTree = "<group>"; };
+		356B335572C86B8309AEF627011E4CF5 /* ViewController+SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ViewController+SnapKit.swift"; path = "Source/ViewController+SnapKit.swift"; sourceTree = "<group>"; };
+		38415AA1CB52D8B614B30BBA41FBC18D /* UMSnsAccountViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = UMSnsAccountViewController.xib; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/SocialSDKXib/UMSnsAccountViewController.xib; sourceTree = "<group>"; };
+		40D9B8A6A389E0E494E92D2131BA6CDE /* WeiboSDK+Statistics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WeiboSDK+Statistics.h"; path = "Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WeiboSDK+Statistics.h"; sourceTree = "<group>"; };
+		4246D5CD7BA0781BBD9CBC818726705B /* UMSocialLaiwangHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialLaiwangHandler.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/UMSocialLaiwangHandler.h; sourceTree = "<group>"; };
+		44F895577D05C7FD064465595732C310 /* LWApiUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LWApiUtils.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/LWApiUtils.h; sourceTree = "<group>"; };
+		46AE042BE9A73F015DD6F96A73594A79 /* LWApiResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LWApiResponse.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/LWApiResponse.h; sourceTree = "<group>"; };
+		48322B6FCFBE9D507A768907B7CB9D33 /* UMSocialWhatsappHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialWhatsappHandler.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Whatsapp/UMSocialWhatsappHandler.h; sourceTree = "<group>"; };
+		4E0851CD82A2EF98EAD0AA7743C7DAE0 /* Pods-Diverse2048_swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Diverse2048_swift.release.xcconfig"; sourceTree = "<group>"; };
+		56CCC5E52C1A43BD573C4EED50B5D174 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		57C964DBEC805578F5E24D070A146529 /* Pods-Diverse2048_swift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Diverse2048_swift-frameworks.sh"; sourceTree = "<group>"; };
+		60480700142CC747BD0717ACF5CC5A81 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
+		610D13F24BB4859D0D1FEF2AB118B529 /* UMShareEditViewControlleriPad.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = UMShareEditViewControlleriPad.xib; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/SocialSDKXib/UMShareEditViewControlleriPad.xib; sourceTree = "<group>"; };
+		629575EBB86B3D9A67E1FA9CD00B9225 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62F3D46E73BAFB210ED20FB4C26DFA45 /* APOpenAPIObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APOpenAPIObject.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/AlipayShare/APOpenAPIObject.h; sourceTree = "<group>"; };
+		65503AD282179D6F1B01F6366B37C62D /* EdgeInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EdgeInsets.swift; path = Source/EdgeInsets.swift; sourceTree = "<group>"; };
+		6550EDA1A665F0191CE3B1502C49151B /* LWApiConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LWApiConnection.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/LWApiConnection.h; sourceTree = "<group>"; };
+		66C163FAE5E3EC36FA83D9D675EC8EC9 /* UMSocial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocial.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/Header/UMSocial.h; sourceTree = "<group>"; };
+		67E38F79FC5AF7528876535DC2E1A892 /* APOpenAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APOpenAPI.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/AlipayShare/APOpenAPI.h; sourceTree = "<group>"; };
+		6B13BBC4BC9FA766A1F29FF674AE006C /* UMSocialWechatHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialWechatHandler.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Wechat/UMSocialWechatHandler.h; sourceTree = "<group>"; };
+		6DFA3D85EBB90CAE0CC68EF6BA97E129 /* Pods-Diverse2048_swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Diverse2048_swift.modulemap"; sourceTree = "<group>"; };
+		7359719EDEA99EE9DA6FAE24F85E1C0E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		790CDA60AFB1A4E50A61E45E8BF3F7B9 /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "zh-Hans.lproj"; path = "Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/zh-Hans.lproj"; sourceTree = "<group>"; };
+		7DD242067ED412639D18531F68E8FFF1 /* UMSocialTumblrHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialTumblrHandler.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Tumblr/UMSocialTumblrHandler.h; sourceTree = "<group>"; };
+		7DD39A61A8DA11997F75F5160EFE7EC4 /* Pods-Diverse2048_swift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Diverse2048_swift-resources.sh"; sourceTree = "<group>"; };
+		7F0B757119EEB16DA27B8893F461AC6D /* LWApiRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LWApiRequest.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/LWApiRequest.h; sourceTree = "<group>"; };
+		809165772A4FF9C4A3959C2ABA0B8A9F /* UMSocialControllerServiceComment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialControllerServiceComment.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/Header/UMSocialControllerServiceComment.h; sourceTree = "<group>"; };
+		821B918E9B53427EC23642E60623121A /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Wechat/WXApiObject.h; sourceTree = "<group>"; };
+		82960A0A7535F9CFF02753A9E3F21F8D /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+		830C244ECC756C291060AB4326590732 /* UMSocialAlipayShareHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialAlipayShareHandler.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/AlipayShare/UMSocialAlipayShareHandler.h; sourceTree = "<group>"; };
+		833693546F05C4694F86E70F3DE9DCC9 /* UMSocialControllerService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialControllerService.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/Header/UMSocialControllerService.h; sourceTree = "<group>"; };
+		867CB35D0FCDD882705C921336903F37 /* Pods_Diverse2048_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Diverse2048_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B71C28B3393F3E9A23F9109EDBA434A /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		8C3DBD2B6C7412F7ED29B4C818886B28 /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9ABA8E611B4917709040A1A99D1E2431 /* WBSDKRelationshipButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBSDKRelationshipButton.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WBSDKRelationshipButton.h; sourceTree = "<group>"; };
+		9B2BD6F472C856771EFC2EFEAE1ED2FC /* LWApiSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LWApiSDK.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/LWApiSDK.h; sourceTree = "<group>"; };
+		9B8E319F671FF411584639F6CDA8BD20 /* UMSCommentInputControlleriPad.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = UMSCommentInputControlleriPad.xib; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/SocialSDKXib/UMSCommentInputControlleriPad.xib; sourceTree = "<group>"; };
+		A0961D862E2632E6178CC055DFDE8CB0 /* UMSocialAccountManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialAccountManager.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/Header/UMSocialAccountManager.h; sourceTree = "<group>"; };
+		A1132716B456C467EB5258EE92A57AC0 /* Pods-Diverse2048_swift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Diverse2048_swift-acknowledgements.plist"; sourceTree = "<group>"; };
+		A24CE6B8C456F308CBAEF31508CE6BC3 /* LWApiImageObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LWApiImageObject.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/LWApiImageObject.h; sourceTree = "<group>"; };
+		A48D06903878634BABA50A226B630B2A /* WBSDKBasicButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBSDKBasicButton.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WBSDKBasicButton.h; sourceTree = "<group>"; };
+		A5876AAB9C7AFC50E548567ACA51D41A /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = en.lproj; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/en.lproj; sourceTree = "<group>"; };
+		A6326752FD999B6E966F8F2B2ED9CF34 /* Pods-Diverse2048_swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Diverse2048_swift-umbrella.h"; sourceTree = "<group>"; };
+		A6DECF74E5E6885D5F632BE887E79A3B /* UMSocialSnsPlatformManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialSnsPlatformManager.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/Header/UMSocialSnsPlatformManager.h; sourceTree = "<group>"; };
+		AB2EBD3607F08026943865E10CC62715 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
+		ADD0EE10B1D72503C740784EED80CC99 /* UMSocialConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialConfig.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/Header/UMSocialConfig.h; sourceTree = "<group>"; };
+		AF1EF741DF9ACD4B8A9EE3F4F9337665 /* Pods-Diverse2048_swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Diverse2048_swift-dummy.m"; sourceTree = "<group>"; };
+		B231404B59E52F885867C9D3718D67CF /* UMSocialFacebookHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialFacebookHandler.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Facebook/UMSocialFacebookHandler.h; sourceTree = "<group>"; };
+		B2B535FAD9B60E035716B7837AD7BC04 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		B332AFFF473CBD5443A73B256DCA7F12 /* LWApiConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LWApiConfig.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/LWApiConfig.h; sourceTree = "<group>"; };
+		B3BD4C0F2A061DAFAF87A74FFFB28FF8 /* UMSLoginViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = UMSLoginViewController.xib; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/SocialSDKXib/UMSLoginViewController.xib; sourceTree = "<group>"; };
+		B512892BC6EE609368D275475105B35C /* WBHttpRequest+WeiboUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboUser.h"; path = "Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WBHttpRequest+WeiboUser.h"; sourceTree = "<group>"; };
+		B6770B06C9D2791961CC87E260B66EB8 /* UMSocialSnsData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialSnsData.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/Header/UMSocialSnsData.h; sourceTree = "<group>"; };
+		B6F3D565AC80ABD02D20700650E09949 /* UMSocialDataService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialDataService.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/Header/UMSocialDataService.h; sourceTree = "<group>"; };
+		B705A106B8CEAF3EADDF8A4A58D7F8D2 /* WeiboSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeiboSDK.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WeiboSDK.h; sourceTree = "<group>"; };
+		B9BBE9D78D921CE59500E26100FDFDDB /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Wechat/WechatAuthSDK.h; sourceTree = "<group>"; };
+		C34151870982A3E6BA30BCE085C2C2DA /* UMSocialBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialBar.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/Header/UMSocialBar.h; sourceTree = "<group>"; };
+		C3431E0469AC55A809E7B4C1EE117347 /* Pods-Diverse2048_swift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Diverse2048_swift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C6F0B33CA0C3799CD461BE59237C6B15 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		C8BB7B1A08606B09299B67AF33B28451 /* LWApiMediaObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LWApiMediaObject.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/LWApiMediaObject.h; sourceTree = "<group>"; };
+		CB8466858783D0D7AC5B90EDFB6B9B8E /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CEE2B7009BA70556F46A61571A5AF5E4 /* WBHttpRequest+WeiboShare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboShare.h"; path = "Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WBHttpRequest+WeiboShare.h"; sourceTree = "<group>"; };
+		D26E9EA816083EBBEBAAE25DDF66FA08 /* WBHttpRequest+WeiboGame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboGame.h"; path = "Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WBHttpRequest+WeiboGame.h"; sourceTree = "<group>"; };
+		D36ACE8AF07DC2031F0CD06626AFD64F /* UMSocialLineHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialLineHandler.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Line/UMSocialLineHandler.h; sourceTree = "<group>"; };
+		D3BD709EE3FA34202BA00FEFD6601C87 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TencentOpenApi_IOS_Bundle.bundle; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		D44B12047A8DF11477C322A5FE4092E0 /* UMShareEditViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = UMShareEditViewController.xib; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/SocialSDKXib/UMShareEditViewController.xib; sourceTree = "<group>"; };
+		D6D672775093DB35E179A2ECB0D5E81C /* WBSDKCommentButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBSDKCommentButton.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WBSDKCommentButton.h; sourceTree = "<group>"; };
+		D8984B2751C1F4344F85115B75C779AA /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		DF3FF15CB6E2CBF0D54C69C360354336 /* WeiboSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WeiboSDK.bundle; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WeiboSDK.bundle; sourceTree = "<group>"; };
+		E5D8E2EACCD75729151E2977404DC812 /* UMSocialSnsService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialSnsService.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/Header/UMSocialSnsService.h; sourceTree = "<group>"; };
+		E77704722D184CDADD7CEA098AF976E3 /* WBHttpRequest+WeiboToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboToken.h"; path = "Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WBHttpRequest+WeiboToken.h"; sourceTree = "<group>"; };
+		E836FBA096D7C298555C4D2BDD59BD1C /* UMSShareListController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = UMSShareListController.xib; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/SocialSDKXib/UMSShareListController.xib; sourceTree = "<group>"; };
+		E87A41ABF3822643B3E2C4D4A6C1D904 /* UMSocialData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialData.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/Header/UMSocialData.h; sourceTree = "<group>"; };
+		EBB73CE1373A8A13AB19DC3D043B1D8A /* UMSCommentDetailController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = UMSCommentDetailController.xib; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/SocialSDKXib/UMSCommentDetailController.xib; sourceTree = "<group>"; };
+		EC18D8C32C03DC108E7C711D2782D6C5 /* WBHttpRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBHttpRequest.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WBHttpRequest.h; sourceTree = "<group>"; };
+		EF57A4569F554AD8233CE77D6C66E69D /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		F8322D029222B0ACE0D15DEB8E952FFC /* WeiboUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeiboUser.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WeiboUser.h; sourceTree = "<group>"; };
+		F83C809B881F8AAC3691D8F1EF3BF4B9 /* UMSCommentInputController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = UMSCommentInputController.xib; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/SocialSDKXib/UMSCommentInputController.xib; sourceTree = "<group>"; };
+		FCF34719545B6917AADB470E3176A785 /* SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SnapKit.swift; path = Source/SnapKit.swift; sourceTree = "<group>"; };
+		FF31538C60B92BE2C60859F1C7E0B4D9 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Wechat/WXApi.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D106EAECA40BCB2EFB30D62AA3EC182 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D71D74B791F30847507F75F7AFA0BE7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0B542EE3594CB66EDB2AF67F44D7240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47C7E3D35B82F5008303D31DD1A42FB6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FC2E79036A7D5FAECC35A4C29FDD374 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CC2AD8E942626CFD9415B5F7C79E3D8 /* Pods-Diverse2048_swift */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1F993BB971754C916BA7B96AA90616B5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				629575EBB86B3D9A67E1FA9CD00B9225 /* Info.plist */,
+				09DAD2447E2FE73F359E32E4C2DAE843 /* SnapKit.modulemap */,
+				8C3DBD2B6C7412F7ED29B4C818886B28 /* SnapKit.xcconfig */,
+				82960A0A7535F9CFF02753A9E3F21F8D /* SnapKit-dummy.m */,
+				8B71C28B3393F3E9A23F9109EDBA434A /* SnapKit-prefix.pch */,
+				D8984B2751C1F4344F85115B75C779AA /* SnapKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapKit";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		479547F8C4B50E82D451C44E88D2B319 /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				AB2EBD3607F08026943865E10CC62715 /* Constraint.swift */,
+				C6F0B33CA0C3799CD461BE59237C6B15 /* ConstraintAttributes.swift */,
+				059A27326EDE8AC5E291E3E7E3508CC6 /* ConstraintDescription.swift */,
+				60480700142CC747BD0717ACF5CC5A81 /* ConstraintItem.swift */,
+				EF57A4569F554AD8233CE77D6C66E69D /* ConstraintMaker.swift */,
+				56CCC5E52C1A43BD573C4EED50B5D174 /* ConstraintRelation.swift */,
+				B2B535FAD9B60E035716B7837AD7BC04 /* Debugging.swift */,
+				65503AD282179D6F1B01F6366B37C62D /* EdgeInsets.swift */,
+				31C3D82F56B60CD924E17057F9E8D9D0 /* LayoutConstraint.swift */,
+				FCF34719545B6917AADB470E3176A785 /* SnapKit.swift */,
+				2696B707924363BAFDAC0594DBF916D1 /* View+SnapKit.swift */,
+				356B335572C86B8309AEF627011E4CF5 /* ViewController+SnapKit.swift */,
+				1F993BB971754C916BA7B96AA90616B5 /* Support Files */,
+			);
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BEC30EF6D6343C3BC3A43F93617542F2 /* Pods */,
+				FC9C23B12BFBB6BC5BBB5026D3E1DAFD /* Products */,
+				0FC2E79036A7D5FAECC35A4C29FDD374 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8CC2AD8E942626CFD9415B5F7C79E3D8 /* Pods-Diverse2048_swift */ = {
+			isa = PBXGroup;
+			children = (
+				7359719EDEA99EE9DA6FAE24F85E1C0E /* Info.plist */,
+				6DFA3D85EBB90CAE0CC68EF6BA97E129 /* Pods-Diverse2048_swift.modulemap */,
+				C3431E0469AC55A809E7B4C1EE117347 /* Pods-Diverse2048_swift-acknowledgements.markdown */,
+				A1132716B456C467EB5258EE92A57AC0 /* Pods-Diverse2048_swift-acknowledgements.plist */,
+				AF1EF741DF9ACD4B8A9EE3F4F9337665 /* Pods-Diverse2048_swift-dummy.m */,
+				57C964DBEC805578F5E24D070A146529 /* Pods-Diverse2048_swift-frameworks.sh */,
+				7DD39A61A8DA11997F75F5160EFE7EC4 /* Pods-Diverse2048_swift-resources.sh */,
+				A6326752FD999B6E966F8F2B2ED9CF34 /* Pods-Diverse2048_swift-umbrella.h */,
+				1AF493BA8E968777C9EFA4A9AB804F66 /* Pods-Diverse2048_swift.debug.xcconfig */,
+				4E0851CD82A2EF98EAD0AA7743C7DAE0 /* Pods-Diverse2048_swift.release.xcconfig */,
+			);
+			name = "Pods-Diverse2048_swift";
+			path = "Target Support Files/Pods-Diverse2048_swift";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEC30EF6D6343C3BC3A43F93617542F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				479547F8C4B50E82D451C44E88D2B319 /* SnapKit */,
+				F2E73D001D75680D26F0D80ABF817778 /* UMengSocialCOM */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F2E73D001D75680D26F0D80ABF817778 /* UMengSocialCOM */ = {
+			isa = PBXGroup;
+			children = (
+				67E38F79FC5AF7528876535DC2E1A892 /* APOpenAPI.h */,
+				62F3D46E73BAFB210ED20FB4C26DFA45 /* APOpenAPIObject.h */,
+				B332AFFF473CBD5443A73B256DCA7F12 /* LWApiConfig.h */,
+				6550EDA1A665F0191CE3B1502C49151B /* LWApiConnection.h */,
+				A24CE6B8C456F308CBAEF31508CE6BC3 /* LWApiImageObject.h */,
+				C8BB7B1A08606B09299B67AF33B28451 /* LWApiMediaObject.h */,
+				1AFED4225BF8E4C0BB3B4A82A7484122 /* LWApiMessage.h */,
+				7F0B757119EEB16DA27B8893F461AC6D /* LWApiRequest.h */,
+				46AE042BE9A73F015DD6F96A73594A79 /* LWApiResponse.h */,
+				9B2BD6F472C856771EFC2EFEAE1ED2FC /* LWApiSDK.h */,
+				44F895577D05C7FD064465595732C310 /* LWApiUtils.h */,
+				66C163FAE5E3EC36FA83D9D675EC8EC9 /* UMSocial.h */,
+				A0961D862E2632E6178CC055DFDE8CB0 /* UMSocialAccountManager.h */,
+				830C244ECC756C291060AB4326590732 /* UMSocialAlipayShareHandler.h */,
+				C34151870982A3E6BA30BCE085C2C2DA /* UMSocialBar.h */,
+				ADD0EE10B1D72503C740784EED80CC99 /* UMSocialConfig.h */,
+				833693546F05C4694F86E70F3DE9DCC9 /* UMSocialControllerService.h */,
+				809165772A4FF9C4A3959C2ABA0B8A9F /* UMSocialControllerServiceComment.h */,
+				E87A41ABF3822643B3E2C4D4A6C1D904 /* UMSocialData.h */,
+				B6F3D565AC80ABD02D20700650E09949 /* UMSocialDataService.h */,
+				B231404B59E52F885867C9D3718D67CF /* UMSocialFacebookHandler.h */,
+				1F8CF56080279DD8FA4D3DC70F26A997 /* UMSocialInstagramHandler.h */,
+				4246D5CD7BA0781BBD9CBC818726705B /* UMSocialLaiwangHandler.h */,
+				D36ACE8AF07DC2031F0CD06626AFD64F /* UMSocialLineHandler.h */,
+				2E6833FB5E86B0FC92CBD7CCCE564006 /* UMSocialQQHandler.h */,
+				04E0E992F5A6AEB443D75A8B762B9DC1 /* UMSocialSinaSSOHandler.h */,
+				B6770B06C9D2791961CC87E260B66EB8 /* UMSocialSnsData.h */,
+				A6DECF74E5E6885D5F632BE887E79A3B /* UMSocialSnsPlatformManager.h */,
+				E5D8E2EACCD75729151E2977404DC812 /* UMSocialSnsService.h */,
+				7DD242067ED412639D18531F68E8FFF1 /* UMSocialTumblrHandler.h */,
+				329FA80CB567514B13059305875B378D /* UMSocialTwitterHandler.h */,
+				6B13BBC4BC9FA766A1F29FF674AE006C /* UMSocialWechatHandler.h */,
+				48322B6FCFBE9D507A768907B7CB9D33 /* UMSocialWhatsappHandler.h */,
+				EC18D8C32C03DC108E7C711D2782D6C5 /* WBHttpRequest.h */,
+				D26E9EA816083EBBEBAAE25DDF66FA08 /* WBHttpRequest+WeiboGame.h */,
+				CEE2B7009BA70556F46A61571A5AF5E4 /* WBHttpRequest+WeiboShare.h */,
+				E77704722D184CDADD7CEA098AF976E3 /* WBHttpRequest+WeiboToken.h */,
+				B512892BC6EE609368D275475105B35C /* WBHttpRequest+WeiboUser.h */,
+				A48D06903878634BABA50A226B630B2A /* WBSDKBasicButton.h */,
+				D6D672775093DB35E179A2ECB0D5E81C /* WBSDKCommentButton.h */,
+				9ABA8E611B4917709040A1A99D1E2431 /* WBSDKRelationshipButton.h */,
+				B9BBE9D78D921CE59500E26100FDFDDB /* WechatAuthSDK.h */,
+				B705A106B8CEAF3EADDF8A4A58D7F8D2 /* WeiboSDK.h */,
+				40D9B8A6A389E0E494E92D2131BA6CDE /* WeiboSDK+Statistics.h */,
+				F8322D029222B0ACE0D15DEB8E952FFC /* WeiboUser.h */,
+				FF31538C60B92BE2C60859F1C7E0B4D9 /* WXApi.h */,
+				821B918E9B53427EC23642E60623121A /* WXApiObject.h */,
+				FE2E01942C0C78B2529F65AA266ED2DF /* Resources */,
+			);
+			path = UMengSocialCOM;
+			sourceTree = "<group>";
+		};
+		FC9C23B12BFBB6BC5BBB5026D3E1DAFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				867CB35D0FCDD882705C921336903F37 /* Pods_Diverse2048_swift.framework */,
+				CB8466858783D0D7AC5B90EDFB6B9B8E /* SnapKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE2E01942C0C78B2529F65AA266ED2DF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A5876AAB9C7AFC50E548567ACA51D41A /* en.lproj */,
+				D3BD709EE3FA34202BA00FEFD6601C87 /* TencentOpenApi_IOS_Bundle.bundle */,
+				EBB73CE1373A8A13AB19DC3D043B1D8A /* UMSCommentDetailController.xib */,
+				F83C809B881F8AAC3691D8F1EF3BF4B9 /* UMSCommentInputController.xib */,
+				9B8E319F671FF411584639F6CDA8BD20 /* UMSCommentInputControlleriPad.xib */,
+				D44B12047A8DF11477C322A5FE4092E0 /* UMShareEditViewController.xib */,
+				610D13F24BB4859D0D1FEF2AB118B529 /* UMShareEditViewControlleriPad.xib */,
+				B3BD4C0F2A061DAFAF87A74FFFB28FF8 /* UMSLoginViewController.xib */,
+				38415AA1CB52D8B614B30BBA41FBC18D /* UMSnsAccountViewController.xib */,
+				26DD86C0F6CF4B36545E7BE975B5C4D8 /* UMSocialSDKResourcesNew.bundle */,
+				E836FBA096D7C298555C4D2BDD59BD1C /* UMSShareListController.xib */,
+				DF3FF15CB6E2CBF0D54C69C360354336 /* WeiboSDK.bundle */,
+				790CDA60AFB1A4E50A61E45E8BF3F7B9 /* zh-Hans.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C77F6FF04BA7359D4D7B0E750F6D2D8A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA2FD1112C02F3B598177EB4B97B097A /* SnapKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3FBD3E8D40EC84DB6161B445DA6B3AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE855E404FC2128A3D727D440C13A5EC /* Pods-Diverse2048_swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		92E1AE143121B3EF64703BEE478A2AAB /* SnapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4E1C4BA226183A1AD4FAD6D8195F778 /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildPhases = (
+				64084B9B96EA212B245E2DC0658AFB57 /* Sources */,
+				6D106EAECA40BCB2EFB30D62AA3EC182 /* Frameworks */,
+				C77F6FF04BA7359D4D7B0E750F6D2D8A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapKit;
+			productName = SnapKit;
+			productReference = CB8466858783D0D7AC5B90EDFB6B9B8E /* SnapKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BF177EF37B0D9671DCB316D938DEA743 /* Pods-Diverse2048_swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E1F6AE4E4914F9AC9CD8496B1780888 /* Build configuration list for PBXNativeTarget "Pods-Diverse2048_swift" */;
+			buildPhases = (
+				6FC459FE08B886EF6414F111D50DF8D5 /* Sources */,
+				F0B542EE3594CB66EDB2AF67F44D7240 /* Frameworks */,
+				F3FBD3E8D40EC84DB6161B445DA6B3AD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CEDF0D467A889A14E81204245282095 /* PBXTargetDependency */,
+			);
+			name = "Pods-Diverse2048_swift";
+			productName = "Pods-Diverse2048_swift";
+			productReference = 867CB35D0FCDD882705C921336903F37 /* Pods_Diverse2048_swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FC9C23B12BFBB6BC5BBB5026D3E1DAFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF177EF37B0D9671DCB316D938DEA743 /* Pods-Diverse2048_swift */,
+				92E1AE143121B3EF64703BEE478A2AAB /* SnapKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64084B9B96EA212B245E2DC0658AFB57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC919651DBD41C3B1756BFF51B25C5D /* Constraint.swift in Sources */,
+				B4B456074C6C768539AB99ED036CBD8B /* ConstraintAttributes.swift in Sources */,
+				1072DE7A6FD67E66B5929E682ED484B3 /* ConstraintDescription.swift in Sources */,
+				59F9E8B42561CEF3D67C4697967DD2C4 /* ConstraintItem.swift in Sources */,
+				E9B809FF190AF6B189E3320FBF8013EC /* ConstraintMaker.swift in Sources */,
+				57B27138531143D0DF39061D87438A39 /* ConstraintRelation.swift in Sources */,
+				59DCD958DA30DC459DE5697F0B1DEB18 /* Debugging.swift in Sources */,
+				BDE83BED933C1273CA064F858C5A721F /* EdgeInsets.swift in Sources */,
+				BD159E48E9D7F5A797347A7D9DA2EE31 /* LayoutConstraint.swift in Sources */,
+				A0B72F5057C5AA5BD2291A48751701FC /* SnapKit-dummy.m in Sources */,
+				874114917A8565BB487D1EB97003C8AC /* SnapKit.swift in Sources */,
+				020E04EE848B3FDDCE1EA91AECCB0C12 /* View+SnapKit.swift in Sources */,
+				49C24FD6288B253F93ED3DF14F758BD3 /* ViewController+SnapKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FC459FE08B886EF6414F111D50DF8D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC6E8E0089E4E8416D6334C7A59D504 /* Pods-Diverse2048_swift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CEDF0D467A889A14E81204245282095 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 92E1AE143121B3EF64703BEE478A2AAB /* SnapKit */;
+			targetProxy = 732EFF97C83EF9721E98D0835955092D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		227A2C494DF3CFEB03803CE9884FE7EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C3DBD2B6C7412F7ED29B4C818886B28 /* SnapKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABC4408E07889867D16D075517867E46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E0851CD82A2EF98EAD0AA7743C7DAE0 /* Pods-Diverse2048_swift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Diverse2048_swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Diverse2048_swift/Pods-Diverse2048_swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Diverse2048_swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E7D699E22270F87DCEDACAC5835F227E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AF493BA8E968777C9EFA4A9AB804F66 /* Pods-Diverse2048_swift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Diverse2048_swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Diverse2048_swift/Pods-Diverse2048_swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Diverse2048_swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F2348BEA928E4A94B6D385F7F0AE77BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C3DBD2B6C7412F7ED29B4C818886B28 /* SnapKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E1F6AE4E4914F9AC9CD8496B1780888 /* Build configuration list for PBXNativeTarget "Pods-Diverse2048_swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7D699E22270F87DCEDACAC5835F227E /* Debug */,
+				ABC4408E07889867D16D075517867E46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4E1C4BA226183A1AD4FAD6D8195F778 /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227A2C494DF3CFEB03803CE9884FE7EA /* Debug */,
+				F2348BEA928E4A94B6D385F7F0AE77BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
