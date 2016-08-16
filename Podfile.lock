@@ -1,15 +1,20 @@
 PODS:
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
   - SnapKit (0.21.1)
   - UMengSocialCOM (5.2.1)
 
 DEPENDENCIES:
+  - ChameleonFramework/Swift
   - SnapKit
   - UMengSocialCOM (~> 5.2.1)
 
 SPEC CHECKSUMS:
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
   SnapKit: bbad04cb016c7cead63965f16b00c09318d271ee
   UMengSocialCOM: 074c135ce349aa4c8848d3fb8458757bcb6ffb67
 
-PODFILE CHECKSUM: c87032c0f8c8c8045e7b8ba96e267ec015aeb0c5
+PODFILE CHECKSUM: 2c12d1da6302fc798c381233a16ecc361c95738a
 
 COCOAPODS: 1.1.0.beta.1

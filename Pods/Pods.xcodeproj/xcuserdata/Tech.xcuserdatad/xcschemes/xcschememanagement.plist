@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ChameleonFramework.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Diverse2048_swift.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>92E1AE143121B3EF64703BEE478A2AAB</key>
+		<key>5172ACAB7FEA22813859DC97CA0AA16F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BF177EF37B0D9671DCB316D938DEA743</key>
+		<key>F3F622B0CA211155D9BBBA34B646B0DC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F5D7151174B0F14062D6CBA137E100A8</key>
 		<dict>
 			<key>primary</key>
 			<true/>

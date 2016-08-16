@@ -34,11 +34,11 @@ class Game {
     func initGame() {
         status = .Ready
         cells.removeAll()
-        for index in 0...15 {
+        for index in 0...row*column-1 {
             let cell = Cell()
             cell.index = index
-            cell.row = index/4
-            cell.column = index%4
+            cell.row = index/column
+            cell.column = index%column
             cells.append(cell)
         }
     }
