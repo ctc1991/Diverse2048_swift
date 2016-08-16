@@ -17,6 +17,7 @@
 		187FF8A71D62316100AB41D8 /* GameVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187FF8A61D62316100AB41D8 /* GameVc.swift */; };
 		187FF8A91D6231F700AB41D8 /* HomeVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187FF8A81D6231F700AB41D8 /* HomeVc.swift */; };
 		187FF8AB1D62AC5600AB41D8 /* GameVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187FF8AA1D62AC5600AB41D8 /* GameVc.xib */; };
+		187FF8B11D62E20D00AB41D8 /* CubeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187FF8B01D62E20D00AB41D8 /* CubeView.swift */; };
 		C7B51DCA3798AB52856B08FD /* Pods_Diverse2048_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55923B56C0D2834316E191EF /* Pods_Diverse2048_swift.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		187FF8A61D62316100AB41D8 /* GameVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameVc.swift; sourceTree = "<group>"; };
 		187FF8A81D6231F700AB41D8 /* HomeVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVc.swift; sourceTree = "<group>"; };
 		187FF8AA1D62AC5600AB41D8 /* GameVc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameVc.xib; sourceTree = "<group>"; };
+		187FF8B01D62E20D00AB41D8 /* CubeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CubeView.swift; sourceTree = "<group>"; };
 		1C5227CDB0850F7A89D03CB2 /* Pods-Diverse2048_swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diverse2048_swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Diverse2048_swift/Pods-Diverse2048_swift.debug.xcconfig"; sourceTree = "<group>"; };
 		55923B56C0D2834316E191EF /* Pods_Diverse2048_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Diverse2048_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		597E6732844CB665A96ACFB3 /* Pods-Diverse2048_swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diverse2048_swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-Diverse2048_swift/Pods-Diverse2048_swift.release.xcconfig"; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				187FF8AA1D62AC5600AB41D8 /* GameVc.xib */,
+				187FF8B01D62E20D00AB41D8 /* CubeView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				187FF8A91D6231F700AB41D8 /* HomeVc.swift in Sources */,
 				18695A241D5DA2D80062E5B2 /* Game.swift in Sources */,
 				183DC5101D5D97B7007FDAD6 /* ViewController.swift in Sources */,
+				187FF8B11D62E20D00AB41D8 /* CubeView.swift in Sources */,
 				183DC51A1D5D9DE4007FDAD6 /* GameManager.swift in Sources */,
 				183DC50C1D5D97B7007FDAD6 /* AppDelegate.swift in Sources */,
 				187FF8A71D62316100AB41D8 /* GameVc.swift in Sources */,

@@ -13,13 +13,12 @@ class GameVc: ViewController {
     var game = Game()
 
     @IBOutlet weak var gameView: UIView!
-    var cubes = Array<UILabel>()
+    var cubes = Array<CubeView>()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         initUI()
-        
         
         if GameManager.load(.Default).count == 0 {
             game.initGame()
@@ -28,10 +27,6 @@ class GameVc: ViewController {
         } else {
             game = GameManager.load(.Default).last!
         }
-        
-        
-
-        
         createSwipeGestureRecognizer()
     }
     
@@ -52,17 +47,13 @@ class GameVc: ViewController {
         let cubeHeight = (gameView.frame.height - CGFloat(game.row+1)*spacing)/CGFloat(game.row)
         
         for i in 0...(game.column*game.row-1) {
-            print(i%game.column)
             let x = CGFloat(4) + CGFloat(i%game.column) * (cubeWidth + CGFloat(4));
             let y = CGFloat(4) + CGFloat(i/game.column) * (cubeHeight + CGFloat(4));
             let frame = CGRect(x: x, y: y, width: cubeWidth, height: cubeHeight)
-            let cube = UILabel(frame: frame)
-            cube.textAlignment = .Center
-            cube.textColor = UIColor.whiteColor()
+            let cube = CubeView(frame: frame)
             cube.layer.cornerRadius = 5.0
             cube.layer.masksToBounds = true
-            cube.backgroundColor = UIColor.flatGreenColorDark()
-            cube.font = UIFont.systemFontOfSize(18)
+            cube.layer.borderWidth = 1.0
             gameView.addSubview(cube)
             cubes.append(cube)
         }
@@ -70,8 +61,25 @@ class GameVc: ViewController {
     
     func updateGameUI() {
         for index in 0...game.cells.count-1 {
-            cubes[index].text = String(format: "%d", game.cells[index].score)
+            if game.cells[index].score == 0 {
+                cubes[index].text = ""
+            } else {
+                cubes[index].text = String(format: "%d", game.cells[index].score)
+            }
+            cubes[index].backgroundColor = cubes[index].colors[root(game.cells[index].score)]
+            cubes[index].layer.borderColor = cubes[index].colors[root(game.cells[index].score)].CGColor
         }
+    }
+ 
+    // MARK: 求2的几次幂
+    func root(score: Int) -> Int {
+        var num = 0
+        var s = Int(score)
+        while s%2 == 0 && s != 0 {
+            num += 1
+            s = s/2
+        }
+        return num
     }
     
     /**
