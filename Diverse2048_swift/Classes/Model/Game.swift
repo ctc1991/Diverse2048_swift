@@ -8,12 +8,6 @@
 
 import Foundation
 
-enum GameStatus  {
-    case Ready
-    case Playing
-    case Finished
-}
-
 enum GameDirection {
     case Up
     case Left
@@ -21,18 +15,27 @@ enum GameDirection {
     case Right
 }
 
+protocol GameDelegate {
+    func gameover()
+    func gameMove()
+    func gameMerge()
+}
+
 class Game {
     
-    var status = GameStatus.Ready
+    /// 格子
     var cells = Array<Cell>()
     /// 总行数
-    var row = 4
+    var row = 5
     /// 总列数
-    var column = 4
-    
+    var column = 5
+    /// 当前分数
+    var score = 0
+    /// 委托
+    var delegate: GameDelegate?
     // MARK: 初始化游戏
     func initGame() {
-        status = .Ready
+        score = 0
         cells.removeAll()
         for index in 0...row*column-1 {
             let cell = Cell()
@@ -58,10 +61,15 @@ class Game {
             let cell = cells[indexs[index]]
             cell.score = 2
         }
+        if isGameover() && delegate != nil {
+            delegate?.gameover()
+        }
     }
     
+    var hasMerge = false
     // TODO: 滑动
     func swipe(direction direction: GameDirection) {
+        hasMerge = false
         var moveNum = 0
         while moveNum < column-1 {
             replaceZero(direction: direction)
@@ -69,6 +77,17 @@ class Game {
         }
         merge(direction: direction)
         replaceZero(direction: direction)
+        if delegate != nil && !hasMerge {
+            delegate?.gameMove()
+        }
+    }
+    
+    
+    func isGameover() -> Bool {
+        if cannotMove(direction: .Up) && cannotMove(direction: .Left) && cannotMove(direction: .Down) && cannotMove(direction: .Right) {
+            return true
+        }
+        return false
     }
     
     func cannotMove(direction direction: GameDirection) -> Bool {
@@ -149,7 +168,7 @@ class Game {
         }
     }
     
-    // MARK: 合并
+    // MARK: 合并,从中计算分数
     func merge(direction direction: GameDirection) {
         for cell in tempCells(direction: direction) {
             if cell.score > 0 {
@@ -158,28 +177,48 @@ class Game {
                     if cell.row > 0 {
                         if cells[cell.index-column].score == cell.score {
                             cells[cell.index-column].score = cell.score * 2
+                            score += cell.score * 2
                             cell.score = 0
+                            if delegate != nil {
+                                delegate?.gameMerge()
+                                hasMerge = true
+                            }
                         }
                     }
                 case .Left:
                     if cell.column > 0 {
                         if cells[cell.index-1].score == cell.score {
                             cells[cell.index-1].score = cell.score * 2
+                            score += cell.score * 2
                             cell.score = 0
+                            if delegate != nil {
+                                delegate?.gameMerge()
+                                hasMerge = true
+                            }
                         }
                     }
                 case .Down:
                     if cell.row < row-1 {
                         if cells[cell.index+column].score == cell.score {
                             cells[cell.index+column].score = cell.score * 2
+                            score += cell.score * 2
                             cell.score = 0
+                            if delegate != nil {
+                                delegate?.gameMerge()
+                                hasMerge = true
+                            }
                         }
                     }
                 case .Right:
                     if cell.column < column-1 {
                         if cells[cell.index+1].score == cell.score {
                             cells[cell.index+1].score = cell.score * 2
+                            score += cell.score * 2
                             cell.score = 0
+                            if delegate != nil {
+                                delegate?.gameMerge()
+                                hasMerge = true
+                            }
                         }
                     }
                 }

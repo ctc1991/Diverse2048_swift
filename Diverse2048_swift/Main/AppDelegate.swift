@@ -7,6 +7,7 @@
 //
 
 import UIKit
+//import LeanCloud
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -20,13 +21,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.rootViewController = HomeVc()
         window?.makeKeyAndVisible()
         
+        
+        
+        
+        
+        soundManager.initSound()
+
         return true
     }
-    
 
-    
-   
-    
-    
 }
 

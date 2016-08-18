@@ -10,12 +10,22 @@ import Foundation
 
 class GameManager {
     
+    class func uuid() -> String {
+        if NSUserDefaults.standardUserDefaults().valueForKey("uuid") == nil {
+            NSUserDefaults.standardUserDefaults().setValue(NSUUID().UUIDString, forKey: "uuid")
+        }
+        return NSUserDefaults.standardUserDefaults().valueForKey("uuid") as! String
+    }
+    
     class func save(score score: Int, type: CellType) {
         NSUserDefaults.standardUserDefaults().setValue(score, forKey: String(format: "GameManager_Score_%d", type.hashValue))
     }
     
     class func load(type type: CellType) -> Int {
-        return NSUserDefaults.standardUserDefaults().valueForKey(String(format: "GameManager_Score_%d", type.hashValue)) as! Int
+        if NSUserDefaults.standardUserDefaults().valueForKey(String(format: "GameManager_Score_%d", type.hashValue)) != nil {
+            return NSUserDefaults.standardUserDefaults().valueForKey(String(format: "GameManager_Score_%d", type.hashValue)) as! Int
+        }
+        return 0
     }
     
     class func save(game game: Game, type: CellType) {
@@ -49,6 +59,7 @@ class GameManager {
                 cell.score = dictionary["score"]!
                 cell.row = dictionary["row"]
                 cell.column = dictionary["column"]
+                game.score = dictionary["gameScore"]!
                 cells.append(cell)
             }
             game.cells = cells
@@ -70,7 +81,7 @@ class GameManager {
     class func game(game game: Game, type: CellType) -> Array<Dictionary<String,Int!>> {
         var array = Array<Dictionary<String,Int!>>()
         for cell in game.cells {
-            let dictionary = ["index":cell.index,"score":cell.score,"row":cell.row,"column":cell.column]
+            let dictionary = ["index":cell.index,"score":cell.score,"row":cell.row,"column":cell.column,"gameScore":game.score]
             array.append(dictionary)
         }
         return array
