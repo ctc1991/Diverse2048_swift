@@ -44,9 +44,15 @@ class GameVc: ViewController, GameDelegate {
         gameIv.contentMode = .ScaleToFill
         view.addSubview(gameIv)
         gameIv.frame = CGRect(x: 16, y: 128, width: view.frame.width-32, height: view.frame.height-128-64)
+        let xEffect = UIInterpolatingMotionEffect(keyPath: "center.x", type: .TiltAlongHorizontalAxis)
+        xEffect.minimumRelativeValue = -20
+        xEffect.maximumRelativeValue =  20
+//        gameIv.addMotionEffect(xEffect)
         // 游戏区域
         view.addSubview(gameView)
         gameView.frame = CGRect(x: 16+22, y: 128+22, width: view.frame.width-32-44, height: view.frame.height-128-64-44)
+
+        gameView.addMotionEffect(xEffect)
         // 计分板
         view.addSubview(scoreLbl)
         scoreLbl.font = UIFont(name: "42", size: 40)
@@ -230,10 +236,12 @@ class GameVc: ViewController, GameDelegate {
     }
 
     func gameMerge() {
+        GameManager.save(game: game, type: .Default)
         soundManager.play(sound: soundManager.mergeSound!)
     }
     
     func gameMove() {
+        GameManager.save(game: game, type: .Default)
         soundManager.play(sound: soundManager.moveSound!)
     }
 }

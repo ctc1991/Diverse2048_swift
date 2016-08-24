@@ -26,9 +26,9 @@ class Game {
     /// 格子
     var cells = Array<Cell>()
     /// 总行数
-    var row = 5
+    var row = 4
     /// 总列数
-    var column = 5
+    var column = 4
     /// 当前分数
     var score = 0
     /// 委托
